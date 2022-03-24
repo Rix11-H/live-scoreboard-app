@@ -16,6 +16,8 @@ body {
 
 a {
   color: #00B7FF;
+  display: inline;
+  text-align: center;
 }
 
 h1 ,p {
