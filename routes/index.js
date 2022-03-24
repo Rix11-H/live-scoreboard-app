@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET live page. */
-router.get('/live', function(req, res, next) {
+router.get('/live', (req, res, next) => {
   res.render('live');
 });
 
