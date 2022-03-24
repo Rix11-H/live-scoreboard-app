@@ -1,8 +1,67 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 50px 20%;
+  
+  background-image: url("./../images/207173.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top -200px center;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.336);
+  border: solid 1px white;
+  padding: 2em;
 }
 
 a {
   color: #00B7FF;
 }
+
+h1 ,p {
+  text-align: center;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: .2em;
+  border: solid 1px white;
+}
+
+.scoreboard__form {
+  padding: .5em 2em;
+}
+
+.form__input {
+  display: inline;
+  padding: 1em 2em;
+}
+
+.tableBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+table {
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+}
+
+tr {
+  padding: .2em;
+}
+
+th {
+  text-align: left;
+  border: solid 2px white;
+  width: 100%;
+  padding: .4em .6em;
+}
+
+

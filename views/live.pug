@@ -1,5 +1,37 @@
 extends layout
 
 block content
-  h1 Scoreboard
-  p View live updates
+  div.box
+    h1 Quidditch Scoreboard
+    p Check the current team ranking!
+    div.tableBox 
+      table
+        tr  
+          th HollyHead Harpies 
+          th.hh Score
+        tr  
+          th Ballycastle Bats 
+          th.bb Score
+        tr  
+          th Monstrose Magpies 
+          th.mm Score
+        tr  
+          th Wimbourne Wasps 
+          th.ww Score
+        tr  
+          th Falmouth Falcons 
+          th.ff Score
+
+
+    //- div.scoreboard
+    //-   form.scoreboard__form 
+    //-     select(name="team") Team
+    //-       option(value="a") HollyHead Harpies
+    //-       option(value="b") Ballycastle Bats
+    //-       option(value="c") Monstrose Magpies
+    //-       option(value="d") Wimbourne Wasps
+    //-       option(value="e") Falmouth Falcons
+    //-     div.form__input
+    //-       label(for="score") Score: 
+    //-       input(name="score", type="text")
+    //-     input(type="submit" value="submit")
