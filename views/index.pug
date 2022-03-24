@@ -3,7 +3,6 @@ extends layout
 block content
   div.box
     h1 Quidditch Scoreboard
-    a(href="./live") Check the scoreboard here
     p Points are added in sets of 10
     div.scoreboard
       form.scoreboard__form 
@@ -17,4 +16,6 @@ block content
           label(for="score") Score: 
           input(name="score", type="text")
         input(type="submit" value="submit")
+    a(href="./live") Check the scoreboard here
+
   script(src="/javascripts/app.js") 
